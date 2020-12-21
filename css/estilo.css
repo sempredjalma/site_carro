@@ -3,6 +3,7 @@
 *{
     margin:0;
     padding:0;
+    box-sizing: none;
 }
 
 body{
@@ -61,6 +62,49 @@ nav a:hover{
     width:100%;
 }
 
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.ford, .fusca{
+    width:100%;
+    margin: 4em 0;
+}
+
+.titulo{
+    float:left;
+    width:50%;
+}
+
+.titulo h1, .mini h1{
+    text-align:center;
+    font-size: 2em;
+    margin-bottom: 1em;
+    color:#283618;
+    border-bottom: 4px solid #BC6C25;
+}
+
+.titulo p{
+    text-align: center;
+    line-height: 2em;
+    color:#283618;
+}
+
+.foto{
+    float:right;
+    padding-top:2em;
+
+}
+.foto img{
+    margin-left: 5em;
+}
+
+.mini{
+    float:left;
+    width: 100%;
+    padding-top:4em;
+}
 
 
 /*MEDIA QUERIES*/
