@@ -3,7 +3,7 @@
 *{
     margin:0;
     padding:0;
-    box-sizing: none;
+    box-sizing: border-box;
 }
 
 body{
@@ -67,9 +67,10 @@ nav a:hover{
     width: 90%;
 }
 
-.ford, .fusca{
+.ford, .fusca, .video{
+    float:left;
     width:100%;
-    margin: 4em 0;
+    margin: 3em 0;
 }
 
 .titulo{
@@ -77,7 +78,7 @@ nav a:hover{
     width:50%;
 }
 
-.titulo h1, .mini h1{
+.titulo h1, .mini h1, .video h1{
     text-align:center;
     font-size: 2em;
     margin-bottom: 1em;
@@ -85,7 +86,7 @@ nav a:hover{
     border-bottom: 4px solid #BC6C25;
 }
 
-.titulo p{
+.titulo p, .video p{
     text-align: center;
     line-height: 2em;
     color:#283618;
@@ -104,6 +105,23 @@ nav a:hover{
     float:left;
     width: 100%;
     padding-top:4em;
+    margin:0 auto;
+    text-align: center;
+}
+
+.video iframe{
+    float:left;
+    margin:0 20%;
+}
+
+footer{
+    float:left;
+    width: 100%;
+    text-align:center;
+    background-color: #606C38;
+    color:#fff;
+    font-size: 0.8em;
+    padding: 1em;
 }
 
 
