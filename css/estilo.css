@@ -14,7 +14,7 @@ header{
     display: flex;
     width:100%;
     justify-content: center;
-    margin-top:0.5em;
+    border-top: 0.3em solid #606C38;
 }
 
 nav{
